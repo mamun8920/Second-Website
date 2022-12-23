@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+.header img {
+    float: left;
+}
+
+/* .main-menu {
+    width: 100%;
+    height: 300px;
+    background-color: #e84393;
+} */
+.main-menu:after {
+    content:'';
+    clear: both;
+    display: block;
+}
+
+.main-menu ul {
+    margin: 0;
+    float: right;
+    margin-right: 5%;
+}
+
+.main-menu ul li {
+    
+    list-style: none;
+    float: left;
+    border: 1px solid white;
+    background-color: #079992;        
+    position: relative;
+}
+
+/* .main-menu ul li:first-child {
+    border: none;
+} */
+
+
+.main-menu ul li >a {
+    padding-right: 30px;
+}
+
+.main-menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    
+}
+
+
+
+.main-menu ul ul li {
+    float: none;
+    border: none;     
+    border-top: 1px solid white;
+    background-color: #38ada9;
+}
+
+.main-menu ul li:hover> ul {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s all ease-in;
+    
+}
+.main-menu ul ul li:hover {
+    background-color: #78e08f;
+}
+
+.main-menu ul ul {
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transition: 1s all ease-out;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.main-menu ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+.main-menu ul ul ul li {
+    border-left: 1px solid white;
+    background-color: #fa983a;
+}
+
+.main-menu ul ul ul li:hover {
+    background-color: #f6b93b;
+}
+
+
+.contant-left {
+    width: 65%;
+    height: 500px;
+    /*! background-color: #6a89cc; */
+    float: left;
+    margin-left: 20px;
+}
+
+.contant-left h3 {
+    color: white;
+    padding: 15px;
+    background-color: #535c68;
+}
+
+.contant-left img {
+    width: 371px;
+}
+.para {
+    width: 478px;
+    float: right;
+    margin: 0;
+}
+
+.button {
+    float: left;
+}
+
+.contant-Right {
+    width: 31%;
+    height: 500px;
+    /*! background-color: #82ccdd; */
+    float: right;    
+    margin-right: 20px;
+}
+.contant-Right h3 {
+    color: white;
+    background-color: #535c68;
+}
+.contant-Right img {
+    width: 400px;
+}
+
+.contant-Right a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer img {
+    width: 100%;
+}
